@@ -7,7 +7,7 @@
 # Date created: 16/05/2017
 # Date last modified: 20/05/2017
 # Python version: 2.7
-# License:
+# License: MIT
 
 #################################
 
@@ -66,7 +66,6 @@ class Coverage(object):
 			'encoding': "UTF-8", 
 		}
 		 
-		# Test if pdfkit is installed, if not write to csv
 		pdfkit.from_string(env.get_template('coverage_report.html').render(genes_lowcoverage=self.genes_lowcoverage.to_html(columns=header), summary=self.summary, input_file=self.input_file), self.output_file, options=options, css=css)
 
 	def test_load(self):
