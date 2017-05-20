@@ -9,19 +9,31 @@ The coverage_report.py script takes a sambamba file and generates a pdf report t
 
 The script can be run using conda or python virtual environments.
 
-### To create a conda environment:
+```
+cd coverage_test
+```
+
+* **Conda:**
+
+Create the conda environment
 
 ```
 conda env create -f environment.yml 
 ```
 
-### To activate the python virtual environment 
+Activate the conda environment
+```
+source activate coverage_env
+```
 
+* **Python virtual environment:**
+
+Activate the python virtual environment
 ```
 source python_venv/bin/activate
 ```
 
-Dependencies are listed in [requirements.txt](https://github.com/lmallin/coverage_test/python_venv)
+Dependencies are listed in [requirements.txt](https://github.com/lmallin/coverage_test/python_venv/requirements.txt)
 
 ## Generating a report
 
