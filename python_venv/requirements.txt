@@ -1,0 +1,12 @@
+appdirs==1.4.3
+Jinja2==2.9.6
+MarkupSafe==1.0
+numpy==1.12.1
+packaging==16.8
+pandas==0.20.1
+pdfkit==0.6.1
+pyparsing==2.2.0
+python-dateutil==2.6.0
+pytz==2017.2
+six==1.10.0
+wkhtmltopdf-pack==0.12.3.0
