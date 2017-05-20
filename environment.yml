@@ -1,0 +1,49 @@
+name: coverage_env
+channels:
+- !!python/unicode
+  'trentoliphant'
+- !!python/unicode
+  'anaconda'
+- !!python/unicode
+  'defaults'
+dependencies:
+- !!python/unicode
+  'jinja2=2.9.6=py27_0'
+- !!python/unicode
+  'markupsafe=0.23=py27_2'
+- !!python/unicode
+  'mkl=2017.0.1=0'
+- !!python/unicode
+  'numpy=1.12.1=py27_0'
+- !!python/unicode
+  'openssl=1.0.2k=2'
+- !!python/unicode
+  'pandas=0.20.1=np112py27_0'
+- !!python/unicode
+  'pip=9.0.1=py27_1'
+- !!python/unicode
+  'python=2.7.13=0'
+- !!python/unicode
+  'python-dateutil=2.6.0=py27_0'
+- !!python/unicode
+  'pytz=2017.2=py27_0'
+- !!python/unicode
+  'readline=6.2=2'
+- !!python/unicode
+  'setuptools=27.2.0=py27_0'
+- !!python/unicode
+  'six=1.10.0=py27_0'
+- !!python/unicode
+  'sqlite=3.13.0=0'
+- !!python/unicode
+  'tk=8.5.18=0'
+- !!python/unicode
+  'wheel=0.29.0=py27_0'
+- !!python/unicode
+  'zlib=1.2.8=3'
+- !!python/unicode
+  'wkhtmltopdf=0.2=py27_0'
+- pip:
+  - pdfkit==0.6.1
+prefix: !!python/unicode '/Users/lucymallin/anaconda2/envs/coverage_env'
+
